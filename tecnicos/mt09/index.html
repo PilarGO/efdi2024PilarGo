@@ -1,0 +1,965 @@
+
+
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Especialización en Fabricación Digital e Innovación">
+      
+      
+        <link rel="canonical" href="https://nicodq.github.io/nicolas-duarte-efdi-2024/tecnicos/mt09/">
+      
+      
+        <meta name="author" content="Nicolás Duarte">
+      
+      <link rel="shortcut icon" href="../../images/logoweb.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-5.5.11">
+    
+    
+      
+        <title>MT09 - Nicolás Duarte - UTEC & Fab Lab Barcelona</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.860688db.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.943997b5.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Be+Vietnam:300,400,400i,700%7CCutive+Mono&display=fallback">
+        <style>body,input{font-family:"Be Vietnam",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Cutive Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="custom" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mt09-moldes" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Cabecera">
+    <a href="https://nicodq.github.io/nicolas-duarte-efdi-2024/" title="Nicolás Duarte - UTEC & Fab Lab Barcelona" class="md-header-nav__button md-logo" aria-label="Nicolás Duarte - UTEC & Fab Lab Barcelona">
+      
+  <img src="../../images/isotipo-utec.png" alt="logo">
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Nicolás Duarte - UTEC & Fab Lab Barcelona
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              MT09
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Limpiar" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header-nav__source">
+        
+<a href="https://github.com/NicoDQ/nicolas-duarte-efdi-2024" title="Ir al repositorio" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Repositorio de Github
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://nicodq.github.io/nicolas-duarte-efdi-2024/" title="Nicolás Duarte - UTEC & Fab Lab Barcelona" class="md-nav__button md-logo" aria-label="Nicolás Duarte - UTEC & Fab Lab Barcelona">
+      
+  <img src="../../images/isotipo-utec.png" alt="logo">
+
+    </a>
+    Nicolás Duarte - UTEC & Fab Lab Barcelona
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/NicoDQ/nicolas-duarte-efdi-2024" title="Ir al repositorio" class="md-source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05L244 40.45a28.87 28.87 0 00-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 01-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 000 40.81l195.61 195.6a28.86 28.86 0 0040.8 0l194.69-194.69a28.86 28.86 0 000-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Repositorio de Github
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Inicio" class="md-nav__link">
+      Inicio
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/me/" title="Sobre mí" class="md-nav__link">
+      Sobre mí
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Modulos Técnicos
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Técnicos" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Técnicos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt01/" title="MT01" class="md-nav__link">
+      MT01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../recursos-utilizados/recursos/" title="MT01 - Recursos Utilizados" class="md-nav__link">
+      MT01 - Recursos Utilizados
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt02/" title="MT02" class="md-nav__link">
+      MT02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt03/" title="MT03" class="md-nav__link">
+      MT03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt04/" title="MT04" class="md-nav__link">
+      MT04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt05/" title="MT05" class="md-nav__link">
+      MT05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt06/" title="MT06" class="md-nav__link">
+      MT06
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt07/" title="MT07" class="md-nav__link">
+      MT07
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mt08/" title="MT08" class="md-nav__link">
+      MT08
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        MT09
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" title="MT09" class="md-nav__link md-nav__link--active">
+      MT09
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    Introducción
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fusion-360" class="md-nav__link">
+    Fusion 360
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proceso-realizado" class="md-nav__link">
+    Proceso Realizado
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagenes-del-proceso-fusion-360" class="md-nav__link">
+    Imagenes del Proceso - Fusion 360
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones-del-proyecto" class="md-nav__link">
+    Conclusiones del Proyecto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivos-del-proyecto" class="md-nav__link">
+    Archivos del Proyecto
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modulos Diseño
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Diseño" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Diseño
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md01/" title="MD01" class="md-nav__link">
+      MD01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md02/" title="MD02" class="md-nav__link">
+      MD02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../diseno/md03/" title="MD03" class="md-nav__link">
+      MD03
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Modulos Innovación
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Modulos Innovación" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        <span class="md-nav__icon md-icon"></span>
+        Modulos Innovación
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi01/" title="MI01" class="md-nav__link">
+      MI01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi02-iad/" title="MI02 - IAD" class="md-nav__link">
+      MI02 - IAD
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../innovacion/mi02-dsec/" title="MI02 - DSyEC" class="md-nav__link">
+      MI02 - DSyEC
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Proyecto Integrador
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Proyecto Integrador" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        <span class="md-nav__icon md-icon"></span>
+        Proyecto Integrador
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../proyecto/proyecto/" title="Kit Circuitos" class="md-nav__link">
+      Kit Circuitos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../proyecto/proyecto2/" title="Estación Meteorológica Rural" class="md-nav__link">
+      Estación Meteorológica Rural
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduccion" class="md-nav__link">
+    Introducción
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fusion-360" class="md-nav__link">
+    Fusion 360
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#proceso-realizado" class="md-nav__link">
+    Proceso Realizado
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imagenes-del-proceso-fusion-360" class="md-nav__link">
+    Imagenes del Proceso - Fusion 360
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusiones-del-proyecto" class="md-nav__link">
+    Conclusiones del Proyecto
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#archivos-del-proyecto" class="md-nav__link">
+    Archivos del Proyecto
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/NicoDQ/nicolas-duarte-efdi-2024/edit/master/docs/tecnicos/mt09.md" title="Editar esta página" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="mt09-moldes">MT09 - Moldes</h1>
+<h2 id="introduccion">Introducción</h2>
+<p>El módulo de Moldes (MT09) es una etapa clave en la Especialización en Fabricación Digital e Innovación, porque nos ayuda a adentrarnos en un proceso que resulta esencial para la producción en serie: la creación de moldes. A diferencia de otros módulos en los que trabajamos directamente con la fabricación de piezas, aquí vamos a enfocarnos en cómo se diseñan y fabrican los moldes que permiten reproducir esas piezas de una manera más eficiente.</p>
+<p>Durante este módulo, vimos diferentes métodos de moldeo, como la inyección, fundición y termoformado, y entendimos el cómo se elige la técnica adecuada dependiendo del material y la complejidad del diseño. Lo interesante es que no se trata solo de aprender a crear un molde, sino de entender cómo optimizarlo para mejorar tanto la calidad de las piezas como el proceso de producción.</p>
+<p>A lo largo de las clases, vimos desde la teoría hasta la práctica, aplicando lo aprendido para diseñar y producir un molde real que sea funcional. Al final, la idea, bajo mi entender, es que cada uno de nosotros termine este módulo no solo con nuevas habilidades, sino también con una visión más amplia de cómo la fabricación eficiente y a gran escala empieza mucho antes de que las máquinas se pongan en marcha.</p>
+<p>En este módulo el tutora fue Julia Leirado.</p>
+<p>Para llevar a cabo este módulo vimos diferentes herramientas como lo son: </p>
+<h2 id="fusion-360">Fusion 360</h2>
+<p><img align="left" alt="Imagen de Fusion 360" src="../../images/MT02/fusion360.png#mt02" /></p>
+<p>Fusion 360 es una potente plataforma de diseño asistido por computadora (CAD), modelado 3D, simulación y fabricación desarrollada por Autodesk. Es una herramienta integral que combina varias funciones esenciales para el diseño y la ingeniería en una sola aplicación.</p>
+<p>Una de las características distintivas de Fusion 360 es su enfoque en el diseño colaborativo basado en la nube. Esto significa que múltiples usuarios pueden trabajar en un mismo proyecto simultáneamente desde diferentes ubicaciones, lo que facilita la colaboración en equipos distribuidos.</p>
+<p>Fusion 360 ofrece una amplia gama de herramientas de modelado 3D, incluidas opciones para esculpir, crear superficies orgánicas y diseñar piezas mecánicas. También incluye capacidades de simulación para evaluar el rendimiento y la resistencia de los diseños antes de la fabricación.</p>
+<p>Además, Fusion 360 integra herramientas de fabricación asistida por computadora (CAM), lo que permite a los usuarios generar trayectorias de herramientas para máquinas de control numérico por computadora (CNC) y llevar a cabo la fabricación de prototipos y productos finales.</p>
+<h2 id="proceso-realizado">Proceso Realizado</h2>
+<p>Para la actividad del módulo, se nos pedia diseñar y modelar una maceta con ciertas dimensiones máximas, aplicando los conceptos vistos en el módulo sobre diseño y fabricación de moldes. El ejercicio consiste en seguir una serie de consignas que nos llevarán desde el diseño del objeto hasta la creación de un molde funcional en Fusion 360.</p>
+<p>Primero, debemos diseñar una maceta con un alto máximo de 10 cm y un diámetro de 15 cm. Una vez diseñado el modelo de la maceta, lo modelaremos en Fusion 360. Luego, pasaremos a diseñar un molde que pueda fabricarla, respetando las restricciones de tener entre 1 y 4 caras, y añadiendo guías de encastre en caso de que el molde tenga más de una cara.</p>
+<p>Después de modelar tanto la maceta como el molde, ambos deben estar en un único archivo .f3d que se enviará al docente Maximiliano por correo</p>
+<p>Aquí debajo detallaré los pasos seguidos:</p>
+<h2 id="imagenes-del-proceso-fusion-360">Imagenes del Proceso - Fusion 360</h2>
+<p>Primeramente, comencé a diseñar la maceta, utilizando hexagonos en su sketch, a diferentes alturas, para luego ir uniendo las aristas de cada uno de los niveles, para generar un sketch más complejo:</p>
+<figure>
+  <img alt="Imagen de Proyecto 1" src="../../images/MT09/1.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 2" src="../../images/MT09/2.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 3" src="../../images/MT09/3.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 4" src="../../images/MT09/4.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 5" src="../../images/MT09/5.png" width="600" />
+</figure>
+<p>Una vez listo el scketch complejo, pasé a realizar las superficies con la herramienta de Superficie de Contorno:</p>
+<figure>
+  <img alt="Imagen de Proyecto 6" src="../../images/MT09/6.png" width="600" />
+</figure>
+<p>Hechas las superficies de contorno, inverti las que se ven en amarillo en la imagen anterior , para que todas tengan el mismo sentido:</p>
+<figure>
+  <img alt="Imagen de Proyecto 7" src="../../images/MT09/7.png" width="600" />
+</figure>
+<p>Realizada la inversión, con el patron circular, seleccione los componentes y aplique el patrón, cerrando asi la carcasa de la maceta:</p>
+<figure>
+  <img alt="Imagen de Proyecto 8" src="../images/MT09/8.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 9" src="../../images/MT09/9.png" width="600" />
+</figure>
+<p>Apliqué en la seleccion de todos los componentes, la operación de coser:</p>
+<figure>
+  <img alt="Imagen de Proyecto 10" src="../../images/MT09/10.png" width="600" />
+</figure>
+<p>Realice el sketch de la base, para luego extruirlo y agregarlo al modelo generado de paso anterior:</p>
+<figure>
+  <img alt="Imagen de Proyecto 11" src="../../images/MT09/11.png" width="600" />
+</figure>
+<p>Volvemos a coser con los nuevos componentes:</p>
+<figure>
+  <img alt="Imagen de Proyecto 13" src="../../images/MT09/13.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 12" src="../../images/MT09/12.png" width="600" />
+</figure>
+<p>Hacemos una extrusión en la parte superior, para dejarle un labio a la maceta:</p>
+<figure>
+  <img alt="Imagen de Proyecto 14" src="../../images/MT09/14.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 15" src="../../images/MT09/15.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 16" src="../../images/MT09/16.png" width="600" />
+</figure>
+<p>Resultado hasta este momento:</p>
+<figure>
+  <img alt="Imagen de Proyecto 17" src="../../images/MT09/17.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 18" src="../../images/MT09/18.png" width="600" />
+</figure>
+<p>Aquí aplique un desfase en la parte superior del modelo:</p>
+<figure>
+  <img alt="Imagen de Proyecto 19" src="../../images/MT09/19.png" width="600" />
+</figure>
+<p>Ahora comencemos con los pasos del molde para la maceta realizada.
+Primeramente, tome una base cuadrada para realizar el sketch, dividiendola en 4 partes:</p>
+<figure>
+  <img alt="Imagen de Proyecto 20" src="../../images/MT09/20.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 21" src="../../images/MT09/21.png" width="600" />
+</figure>
+<p>Extrui una de las partes hasta el alto de la maceta y 5mm por debajo de la misma:</p>
+<figure>
+  <img alt="Imagen de Proyecto 22" src="../../images/MT09/22.png" width="600" />
+</figure>
+<p>Lueco con la herramienta de combinar, combine el negativo de la maceta con el positivo del cuadrado, para dejar la cavidad necesaria correspondiente a la maceta, dentro del cuadrado:</p>
+<figure>
+  <img alt="Imagen de Proyecto 23" src="../../images/MT09/23.png" width="600" />
+</figure>
+<p>Antes de que quede como en la imagen, en la seccion del componente, quite todo el sobrante de objetos que no interesaban a efectos del molde.</p>
+<figure>
+  <img alt="Imagen de Proyecto 24" src="../../images/MT09/24.png" width="600" />
+</figure>
+<p>Pase a realizar el componente que va a realizar el vaciado del contenido de la maceta:</p>
+<figure>
+  <img alt="Imagen de Proyecto 25" src="../../images/MT09/25.png" width="600" />
+</figure>
+<p>Luego al cuadrado, le realice un sketch para extruirlo a posteriori, para generar un encastre, también realice un chaflan en los bordes del encastre:</p>
+<figure>
+  <img alt="Imagen de Proyecto 26" src="../../images/MT09/26.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 27" src="../../images/MT09/27.png" width="600" />
+</figure>
+<p>Con la herramienta de mover, generando una copia, rote 180 grados la pieza generada, para armar su simetrico:</p>
+<figure>
+  <img alt="Imagen de Proyecto 28" src="../../images/MT09/28.png" width="600" />
+</figure>
+<p>En este punto del proceso, repeti el realizar una extrusión del cuadrado, cominacion de positivo y negativo, reduccion de objetos dentro del componente para el molde, debido a que la simetria respeta cada par de cuadrados, impidiendome repetir el paso anterior a partir de los que ya tenía.</p>
+<figure>
+  <img alt="Imagen de Proyecto 29" src="../../images/MT09/29.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 30" src="../../images/MT09/30.png" width="600" />
+</figure>
+<p>Una vez realizados otra vez dichos pasos, el resultado será el siguiente:</p>
+<figure>
+  <img alt="Imagen de Proyecto 31" src="../../images/MT09/31.png" width="600" />
+</figure>
+<p>Aplicando un empalme a las caras del molde:</p>
+<figure>
+  <img alt="Imagen de Proyecto 32" src="../../images/MT09/32.png" width="600" />
+</figure>
+<p>Aquí una muestra de todas las partes generadas:</p>
+<figure>
+  <img alt="Imagen de Proyecto 34" src="../../images/MT09/34.png" width="600" />
+</figure>
+<figure>
+  <img alt="Imagen de Proyecto 33" src="../../images/MT09/33.png" width="600" />
+</figure>
+<h2 id="conclusiones-del-proyecto">Conclusiones del Proyecto</h2>
+<p>El módulo MT09 ha sido una experiencia sumamente desafiante, que me permitió conocer en el mundo del diseño y fabricación de moldes. A lo largo de este proceso, he podido explorar técnicas fundamentales para la creación de moldes funcionales, así como aprender diferentes técnicas de modelado en Fusion 360.</p>
+<p>El desafío de diseñar una maceta y luego crear su respectivo molde me llevó a considerar aspectos clave como las guías de encastre, concepto que, si bien antes parecía bastante abstracto, ahora cobra total sentido en la práctica. Este módulo no solo me enseñó a usar más funciones de las herramientas como Fusion 360, sino también a pensar en la funcionalidad y la eficiencia del proceso de fabricación.</p>
+<p>Gracias a MT09, me siento más preparado para enfrentar proyectos que requieran diseño de moldes y fabricación en serie. Ahora tengo un mejor entendimiento del impacto que el diseño puede tener en el resultado final, y cómo pequeñas decisiones en el diseño pueden hacer una gran diferencia en la producción.</p>
+<p>Ha sido una oportunidad no solo para aprender técnicas nuevas, sino también para profundizar en el diseño con una visión más amplia de los procesos industriales que sustentan la fabricación digital.</p>
+<h2 id="archivos-del-proyecto">Archivos del Proyecto</h2>
+<p><em><a href="../archives/Maceta y Molde - MT09 - NDQ.f3d">Archivo de Fusion 360 - Proyecto con Maceta y Molde</a></em></p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Última actualización: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">8 de diciembre de 2024</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Pie">
+        
+          <a href="../mt08/" title="MT08" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                MT08
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../../diseno/md01/" title="MD01" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Siguiente
+                </span>
+                MD01
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyleft 2024 "Nicolás Duarte" - GNU Free Documentation License
+          </div>
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+  <div class="md-footer-social">
+    
+      
+      
+        
+        
+      
+      <a href="https://www.linkedin.com/in/nduarteq/" target="_blank" rel="noopener" title="www.linkedin.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+      </a>
+    
+      
+      
+        
+        
+      
+      <a href="https://github.com/NicoDQ" target="_blank" rel="noopener" title="github.com" class="md-footer-social__link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+      </a>
+    
+  </div>
+
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.df0def68.min.js"></script>
+      <script src="../../assets/javascripts/bundle.ba57d267.min.js"></script><script id="__lang" type="application/json">{"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.config.lang": "es", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant", "navigation.expand", "navigation.indexes", "navigation.instant", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.5eca75d3.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
