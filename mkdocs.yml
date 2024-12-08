@@ -1,11 +1,11 @@
 # Replace the text below to customize your site
-site_name: Nicolás Duarte - UTEC & Fab Lab Barcelona
+site_name: Pilar Garcia - UTEC & Fab Lab Barcelona
 site_description: Especialización en Fabricación Digital e Innovación
-site_author: Nicolás Duarte
-copyright: Copyleft 2024 "Nicolás Duarte" - GNU Free Documentation License
+site_author: Pilar Garcia
+copyright: Copyright 2024 "Pilar Garcia" - GNU Free Documentation License
 repo_name: 'Repositorio de Github'
-site_url: https://nicodq.github.io/nicolas-duarte-efdi-2024/
-repo_url: https://github.com/NicoDQ/nicolas-duarte-efdi-2024
+site_url: https://pilargo.github.io/efdi2024PilarGo/
+repo_url: https://github.com/pilargo/efdi2024PilarGo
 
 
 nav:
@@ -31,8 +31,7 @@ nav:
     - MI02 - IAD: innovacion/mi02-iad.md
     - MI02 - DSyEC: innovacion/mi02-dsec.md
   - Proyecto Integrador:
-    - Kit Circuitos : proyecto/proyecto.md
-    - Estación Meteorológica Rural : proyecto/proyecto2.md
+    - Ladrillo de yerba : proyecto/proyecto.md
 
 extra:
   social:
@@ -46,7 +45,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: "https://www.linkedin.com/in/nduarteq/"
     - icon: fontawesome/brands/github
-      link: "https://github.com/NicoDQ"
+      link: "https://github.com/pilargo"
 
 theme:
   language: es
