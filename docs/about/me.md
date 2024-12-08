@@ -1,7 +1,10 @@
-# Sobre mi
+# Sobre mi. Hola!
 
-![](../images/perezoso.jpg)
+![](../images/pilar1.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Mi nombre es Pilar García Olano, me defino como una buscadora. Llevo 44 veranos en mi piel, nací en argentina pero hace 10 años que vivo en uruguay, también viví en chile. Me gusta leer, ver películas e ir a recitales. Estudié diseño insdustrial en la uba, pero aún no la terminé. Planeo revalidar lo cursado durante este año y terminarla el año que viene. Estoy un poco alejada del mundo del diseño, con la EFDI espero actualizar mis conocimientos y volver al ruedo. Tengo un emprendimiento de furoshikis que se llama Imonai, es una propuesta de envoltorios reutilizables, como alternativa al uso del papel de regalo. Continuara...
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit **[my website](https://community.emergentfutures.io/courses/5566525/content)**
+ **[my website](https://www.instagram.com/imonai.furo/)**
+
+ recalculando
+ otra vez
