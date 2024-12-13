@@ -13,7 +13,7 @@ En la cursada me resultó especialmente dificil la parte de programación, agrad
 
 Para conocerme un poco más podes visitar este link [Sobre mí.][sobre-mi]
 
-Para saber en qué estuve trabajando este año, te invito a vistar la sección de Proyecto [Ir a Proyecto](#proyecto)
+Para saber en qué estuve trabajando este año, te invito a vistar la sección de Proyecto Integrador [Ir a Proyecto Integrador](#proyecto-integrador)
 
 
 Gracias por tu tiempo, y si tenés alguna sugerencia te agradezco si me podes contactar: [Enviar correo a Pilar](mailto:pilargarciaolano@gmail.com)
