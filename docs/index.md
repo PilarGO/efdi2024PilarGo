@@ -2,17 +2,22 @@
 
 [sobre-mi]: https://pilargo.github.io/efdi2024PilarGo/about/me/
 
-## ¡Bienvenido a mi espacio digital!
+## Bitácora EFDI 2024
 
-Soy Nico, un entusiasta estudiante de la Especialización en Fabricación Digital e Innovación, ofrecida en colaboración entre UTEC y FabLab Barcelona. Este es mi rincón virtual donde documentaré y compartiré mi viaje a través de este emocionante programa educativo.
+Mi nombre es Pilar García Olano, en esta web voy a registrar los altibajos de mi experiencia en la cursada de la Especialización en fabricación Diegital e Innovación 2024 de Utec y Fab Lab Bcn.
+Quiero agradecer la oportunidad de volver a estudiar (formalmente) después de casi 10 años, agradecer a los profesores y a mis compañeros que compartieron sus experiencias e iluminaron mis ignorancias.
 
-Desde mi primer encuentro con el mundo de la fabricación digital, he sentido una fascinación innegable por su potencial transformador en la sociedad. Ahora, como parte de esta especialización, estoy emocionado de sumergirme aún más en este campo apasionante y explorar las infinitas posibilidades que ofrece la tecnología para la innovación y la creación.
+En la cursada me resultó especialmente dificil la parte de programación, agradezco especialmente a quienes con paciencia y esperanza me ayudaron.
 
-A lo largo de esta web, encontrarás mis reflexiones, proyectos, y aprendizajes mientras avanzo en este viaje de descubrimiento y crecimiento profesional. Espero que este espacio no solo sirva como un registro personal de mi progreso, sino también como una fuente de inspiración y conocimiento para otros apasionados por la fabricación digital y la innovación.
+![](../images/imedioevo.jpg)
 
-Te invito a acompañarme en este emocionante viaje, para conocer más de mí de recomiendo visitar la sección [Sobre mí.][sobre-mi]
+Para conocerme un poco más podes visitar este link [Sobre mí.][sobre-mi]
 
-¡Gracias por visitar mi sitio web!
+Para saber en qué estuve trabajando este año, te invito a vistar la sección de Proyecto [Ir a Proyecto](#proyecto)
+
+
+Gracias por tu tiempo, y si tenés alguna sugerencia te agradezco si me podes contactar: [Enviar correo a Pilar](mailto:pilargarciaolano@gmail.com)
+
 
 <figure markdown="span">
   ![Logo de UTEC y FABLAB](images/logoutecfab.png){ width="400"}
