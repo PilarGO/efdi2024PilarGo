@@ -11,7 +11,7 @@ Para registrar mi camino generé un chat conmigo misma en whatsapp donde registr
 
 ![](../images/efdichat.jpg)
 
-En la cursada me resultó especialmente dificil la parte de programación, agradezco especialmente a quienes con paciencia y esperanza me ayudaron.
+En la cursada me resultó especialmente dificil la parte de programación, agradezco especialmente a quienes con paciencia y esperanza me ayudaron. Mis gracias especiales a Mathias, Nicolás, Edgardo y María.
 
 ![](../images/imedioevo.jpg)
 
