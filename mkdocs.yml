@@ -31,7 +31,8 @@ nav:
     - MI02 - IAD: innovacion/mi02-iad.md
     - MI02 - DSyEC: innovacion/mi02-dsec.md
   - Proyecto Integrador:
-    - Ladrillo de yerba : proyecto/proyecto.md
+    - Camino recorrido : proyecto/Cómo llegué a desarrollar ladrillos.md
+    - Ladrillo de yerba : proyecto/Desarrollo del proyecto Final.md
 
 extra:
   social:
