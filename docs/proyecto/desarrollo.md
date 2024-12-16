@@ -31,7 +31,7 @@ y a todo esto como incluir los conceptos aprendidos a lo largo de la cursada EFD
 
 
 
-![](../images/pf/2024logosyerberos.jpg){ width="600"}
+![](../images/pf/logosyerberos.jpg){ width="600"}
 
 
 # **YERCO**
