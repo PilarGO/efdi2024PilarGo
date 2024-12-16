@@ -5,17 +5,24 @@ hide:
 
 # Proyecto Final: De Yerba descartada a ladrillo 
 
+En esta sección les voy a compartir mi viaje experimental.
+
 Cómo frase disparadora **"La basura no se define por lo que es, sino por donde está"**, reflexioné cómo encarar el Proyecto. Las categorías de "basura" son tantas que mi primer decisión fué recortar al universo de descarte de alimentos. Pero todavía el espectro era enorme e inabarcable para mi. El desafío fué elegir y justificar con qué descarte iba a trabajar, para eso me hice la pregunta: **De qué alimento es que se genera un gran descarte en Uruguay?"** la respuesta no tardó en llegar: **Yerba mate** 
 
 La yerba mate es por excelencia la bebida uruguaya, por año, en Uruguay se descartan 30000 toneladas de yerba mate (https://america-retail.com/paises/uruguay/uruguay-comercializo-cerca-de-30-mil-toneladas-de-yerba-mate/), lo que equivale al volumen de 43 piscinas olimpicas (chat gpt dixit).
 
+
+Al ser el compostaje suele ser el destino más común para el descarte de yerba, me aventuré en la búsqueda de otros destinos para la yerba usada y me encontré con tutoriales para hacer macetas biodegradables con yerba: https://www.youtube.com/watch?v=VJqKtygoL5w
+
+Este es el proceso y resultado de las yerba-macetas: 
+![](../images/pf/202405_macetas.jpg){ width="600"}
+
+
+Esta imagen es de diciembre de 2024, las "macetas" estuvieron desde mayo en un balcón abierto, casi a la intemperie:
 ![](../images/pf/22412_maceta.jpg){ width="600"}
 
 
-
-Recorrido de como llegué al ladrillo de yerba:
-
-Al ser el compostaje suele ser el destino más común para el descarte de yerba, me aventuré en la búsqueda de otros destinos para la yerba usada. Navegando por la web dí con la investigación del equipo del Conicet de Tandil que transforma el residuo de yerba mate en super capacitores y filtros. https://ri.conicet.gov.ar/handle/11336/184187
+Navegando por la web dí con la investigación del equipo del Conicet de Tandil que transforma el residuo de yerba mate en super capacitores y filtros. https://ri.conicet.gov.ar/handle/11336/184187
 Me puse en cuntacto con Florencia Jerez, ingeniera integrande del grupo de investigadores, quien pacientemente me explicó en qué consistía su proyecto. Quedé asombrada con la aplicación que le habían dado al descarte de yerba. Entonces empecé a preguntarme si podría incluir en mi proyecto esta reutilización del material yerba mate. 
 Descarté el camino del supercapacitor porque me excedía en cuanto a conocimiento y recursos para experimentar con el mismo. 
 
