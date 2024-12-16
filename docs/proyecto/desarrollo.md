@@ -3,11 +3,10 @@ hide:
     - toc
 ---
 
-# Proyecto Final: Gestión de la Yerba descartada a su transformación en eco-ladrillo 
+# Proyecto Final: Me propongo desarrollar un Sistema de Gestión para transformar el residuo yerba mate en ladrillos para la construcción y paneles acústicos. 
 
-Una vez que definí que el objetivo del proyecto va a ser el desarrollo de un ladrillo cuyo componente principal, en la medida de lo posible, sea yerba descartada.
+Una vez que definí que el objetivo del proyecto va a ser el desarrollo de un ladrillo cuyo componente principal, en la medida de lo posible, sea yerba descartada surgieron nuevas preguntas:
 
-Ahora surgen nuevas preguntas:
 Cual va a ser la composición del ladrillo?
 Cómo se va a fabricar?
 Qué forma va a tener?
@@ -19,7 +18,17 @@ Vale la pena apuntar a todos los lugares donde se origina el residuo o solo a lo
 Quien va a recolectar la yerba? Qué se hace después con la recolección?
 Qué características necesito en el objeto recolector?
 
-Me propuse desarrollar un contenedor fijo, uno movil, un ladrillo y un sistema que coordine la recolección.
+y a todo esto como incluir los conceptos aprendidos a lo largo de la cursada EFDI 2024.
+
+
+**Objetivos a desarrollar:**
+-	**Planos para construir el contenedor recolector de yerba usada. Incluye componentes electrónicos. Recursos: corte laser, cnc, Arduino. Al que llamo: Yerco**
+-	**El manual de instrucciones para configurar el sistema. Al que llamo Yerwi.**
+-	**El plano necesario para construir el molde del ladrillo y el manual de instrucciones para fabricar el ladrillo. Al que llamo Yerla.** 
+-	**Receta de ladrillo Yerla**
+
+![](../images/pf/2024logosyerberos.jpg){ width="600"}
+
 
 
 # Probando recetas
