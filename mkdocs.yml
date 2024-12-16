@@ -31,11 +31,11 @@ nav:
     - MI02 - IAD: innovacion/mi02-iad.md
     - MI02 - DSyEC: innovacion/mi02-dsec.md
   - Proyecto Integrador:
-    - Camino recorrido : proyecto/Cómo llegué a desarrollar ladrillos.md
-    - Ladrillo de yerba : proyecto/Desarrollo del proyecto Final.md
-    - Anexos : proyecto/manual de uso y planos.md
-    - Proximos pasos : proyecto/planes para el futuro próximo.md
-    - Auto evaluación : proyecto/Auto evaluación.md
+    - proceso : proyecto/proceso.md
+    - desarrollo : proyecto/desarrollo.md
+    - anexos : proyecto/manuales.md
+    - proyecto : proyecto/futuro.md
+    - autoevaluacion : proyecto/autoevaluacion.md
 
 extra:
   social:

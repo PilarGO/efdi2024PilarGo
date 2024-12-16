@@ -19,3 +19,8 @@ Descarté el camino del supercapacitor porque me excedía en cuanto a conocimien
 Edu me recomendó el proyecto https://foldscope.com/?srsltid=AfmBOoqK8TVP83MzWRCPbcI-0m4j3f4M3F-6JPt7QZJRmYDLn7z8L5Cf para que tenga de referencia.
 
 
+# Y si desarrollo un biomaterial para imprimir 3d?
+
+A raíz de la Lecture de Eduardo
+
+Nunca logré coordinar para ir a probar las pastas en la extrusora adaptada, entonces abandoné este camino.
