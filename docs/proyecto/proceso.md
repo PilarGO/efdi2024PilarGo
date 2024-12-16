@@ -9,6 +9,9 @@ Cómo frase disparadora **"La basura no se define por lo que es, sino por donde 
 
 La yerba mate es por excelencia la bebida uruguaya, por año, en Uruguay se descartan 30000 toneladas de yerba mate (https://america-retail.com/paises/uruguay/uruguay-comercializo-cerca-de-30-mil-toneladas-de-yerba-mate/), lo que equivale al volumen de 43 piscinas olimpicas (chat gpt dixit).
 
+![](../images/pf/22412_maceta.jpg){ width="600"}
+
+
 
 Recorrido de como llegué al ladrillo de yerba:
 
