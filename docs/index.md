@@ -12,11 +12,11 @@ Un gracias especial a Martín y a mis hijas Uma y Zoe que se bancaron y acompañ
 
 Para registrar mi camino generé un chat conmigo misma en whatsapp donde registraba experencias y tomaba notas de cosas que me parecían relevantes. El recurso me resultó práctico porque de esta forma también me quedaba registrado la fecha.
 
-![](../images/efdichat.jpg)
+![](../images/index/efdichat.jpg)
 
 En la cursada me resultó especialmente dificil la parte de programación, agradezco especialmente a quienes con paciencia y esperanza me ayudaron. Mis gracias especiales a María, Mathias, Nicolás, Edgardo, Victoria y Franco.
 
-![](../images/imedioevo.jpg)
+![](../images/index/imedioevo.jpg)
 
 Para conocerme un poco más podes visitar este link [Sobre mí.][sobre-mi]
 
