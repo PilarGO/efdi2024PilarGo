@@ -23,11 +23,26 @@ Otra vez el universo me pareció inabarcable, y por otro lado me resultaba muy c
 
 # Y si desarrollo un biomaterial para imprimir 3d?
 
-A raíz de la inspiradora lecture de Eduardo en julio y recordando la experiencia con el engrudo de las macetas me propuse incursionar en el desarrollo de un biomaterial cuya base sea yerba mate descartada. Me puse en contacto con María Clara, quien me facilitó recetas y me dió varias recomendaciones. Asi me puse manos a la obra y probé las siguientes recetas:
+A raíz de la inspiradora lecture de Eduardo en julio y recordando la experiencia con el engrudo de las macetas me propuse incursionar en el desarrollo de un biomaterial cuya base sea yerba mate descartada. Me puse en contacto con María Clara, quien me facilitó recetas y me dió varias recomendaciones. Asi me puse manos a la obra y probé las siguientes recetas
+Las pruebas las hacía con una jeringa de 20ml. Nunca logré coordinar para ir a probar las pastas en la extrusora adaptada de Utec, entonces abandoné este camino.
 
 Receta 1
 Receta 2
 etc
 
 Al armar los compuestos me desanimó que el porcentaje de yerba consumido era muy chico en proporción al resto. Y mi trabajo aspira a procesar las 30 toneladas de yerba que se descartan en uy, o por lo menos una cantidad significativa.
-Las pruebas las hacía con una jeringa de 20ml. Nunca logré coordinar para ir a probar las pastas en la extrusora adaptada de Utec, entonces abandoné este camino.
+
+Imagen del proceso de preparación de los biomateriales.
+
+Para  preparar los ingredientes, a la yerba había que secarla. Armé una cajitas con papel aluminio para depositar el contenido del mate  consumido y probé varías formas de secado: en el horno, al sol y sobre la estufa a leña. 
+El objetivo de recolectar la yerba descartada en porciones me permitía seguir un registro que nunca pude llevar al día. El objetivo de ese **registro** era cuantificar el **peso** de la yerba descartada, la **técnica** de secado, el **tiempo** que requería y el **peso del material seco**.
+Lamentablemente no pude llevar un registro muy exacto, realizar este tipo de actividad en un entorno doméstico nos entorpecía la convivencia. Asi es que empecé a acopiar en la heladera y hasta en el freezer.
+
+
+# Momento Eureka 1
+
+En uno de estos proceso de secado, agupé varias "cajitas" para secar en el horno. Había una que me parecía que ya estaba seca, con el afan de secarla bien la volví a meter al horno. El tiempo promedio de secado de una "cajita" de 170 grs de yerba húmeda.
+Y en ese tiempo sucedió que la yerba de la cajita casi seca se carbonizó e incandeció. Salió humo, y tuve la mala idea de sacarla al balcón, era una noche de agosto invernal de viento que avivó el material. Para apagarlo le coloqué un bowl de metal hasta que el oxigeno se acabara y la brasa se extinguiera. Obviamente no hay imágenes porque estuve ocupada.
+Asi quedó el material:
+
+![](../images/pf/1202408_yerba_carbon.jpg){ width="600"}
