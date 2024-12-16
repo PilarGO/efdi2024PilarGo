@@ -41,6 +41,7 @@ Receta 2
 etc
 
 Al armar los compuestos me desanimó que el porcentaje de yerba consumido era muy chico en proporción al resto. Y mi trabajo aspira a procesar las 30 toneladas de yerba que se descartan en uy, o por lo menos una cantidad significativa.
+También tenía el desafío de encontrar una aplicación que justificara el uso del material, más allá del aprovechamiento del descarte.
 
 Imagen del proceso de preparación de los biomateriales.
 
@@ -56,3 +57,30 @@ Y en ese tiempo sucedió que la yerba de la cajita casi seca se carbonizó e inc
 Asi quedó el material:
 
 ![](../images/pf/1202408_yerba_carbon.jpg){ width="600"}
+
+Entonces surgió una idea: y si hago eco briquetas?
+
+Pero este camino también tenía una pata floja: no me convencía crear algo que emitiera dióxido de carbono (principal gas del efecto invernadero).
+Pero no por eso iba a dejar de investigar y experimentar en las recetas de las "eco" leñas. Conocí la movida "from waste to energy" https://www.lanacion.com.ar/lifestyle/de-basura-parrilla-historia-marlo-sustituto-ecologico-nid2526940/ 
+
+Y asi hice una prueba mezclando 800ml de agua, 722grs de pulpa de papel remojado durante 24 hrs y 490grs de yerba húmeda.
+
+![](../images/pf/1202408_proceso_briqueta.jpg){ width="600"}
+
+![](../images/pf/202408_mojada_seca.jpg){ width="600"}
+
+Me llama la atención la liviandad del material resultante, la pieza de 152 grs de la mezcla, pasa a pesar 36 grs despues del secado en la deshidratadora.
+
+Una vez secas las briquetas, las someto a la prueba de fuego (literal)
+
+![](../images/pf/202408pruebadefuego.jpg){ width="600"}
+
+Reflexión de la prueba de fuego: a la briqueta le costó prenderse. Deduzco que la pulpa de papel actúa como retardante.
+
+
+# Recalculando
+
+No me costó descartar el camino del desarrollo de briquetas a partir de yerba después de la fallida prueba. de esta forma me ahorraba el generar un producto que emita CO2.
+
+Cuando compartí con mis compañeros el material obtenido me quedé con la sorpresa que les generó la liviandad y rigidez del material. Me sugirieron aplicarlo para paneles acústicos, y yo me pregunté si no podría transformarse en ladrillo.
+Asi me sumergí en el fascinante y mundo de los eco ladrillos que se encuentra en pleno desarrollo.  
