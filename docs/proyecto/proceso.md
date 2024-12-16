@@ -19,7 +19,7 @@ Este es el proceso y resultado de las yerba-macetas:
 
 
 Esta imagen es de diciembre de 2024, las "macetas" estuvieron desde mayo en un balcón abierto, casi a la intemperie:
-![](../images/pf/22412_maceta.jpg){ width="600"}
+![](../images/pf/202412_macetas.jpg){ width="600"}
 
 
 Navegando por la web dí con la investigación del equipo del Conicet de Tandil que transforma el residuo de yerba mate en super capacitores y filtros. https://ri.conicet.gov.ar/handle/11336/184187
