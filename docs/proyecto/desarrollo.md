@@ -22,10 +22,14 @@ y a todo esto como incluir los conceptos aprendidos a lo largo de la cursada EFD
 
 
 **Objetivos a desarrollar:**
+
 -	**Planos para construir el contenedor recolector de yerba usada. Incluye componentes electrónicos. Recursos: corte laser, cnc, Arduino. Al que llamo: Yerco**
+
 -	**El manual de instrucciones para configurar el sistema. Al que llamo Yerwi.**
--	**El plano necesario para construir el molde del ladrillo y el manual de instrucciones para fabricar el ladrillo. Al que llamo Yerla.** 
--	**Receta de ladrillo Yerla**
+
+-	**El plano necesario para construir el molde del ladrillo y el manual de instrucciones con la receta para fabricar el ladrillo. Al que llamo Yerla.** 
+
+
 
 ![](../images/pf/2024logosyerberos.jpg){ width="600"}
 
