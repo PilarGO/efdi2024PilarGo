@@ -84,3 +84,6 @@ No me costó descartar el camino del desarrollo de briquetas a partir de yerba d
 
 Cuando compartí con mis compañeros el material obtenido me quedé con la sorpresa que les generó la liviandad y rigidez del material. Me sugirieron aplicarlo para paneles acústicos, y yo me pregunté si no podría transformarse en ladrillo.
 Asi me sumergí en el fascinante y mundo de los eco ladrillos que se encuentra en pleno desarrollo.  
+
+![](../images/pf/docs/images/pf/pruebas_de_recetas.jpg){ width="600"}
+![](../images/pf/docs/images/pf/cuadromuestras.jpg){ width="600"}
