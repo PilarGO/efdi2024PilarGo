@@ -67,6 +67,9 @@ Todavía no está definirdo si la esp 32 va a escribir en esa base de datos o si
 
 ![](../images/pf/202412secado1.jpg){ width="600"}
 ![](../images/pf/202412secado.jpg){ width="600"}
+![](../images/pf/docs/images/pf/pruebas_de_recetas.jpg){ width="600"}
+![](../images/pf/docs/images/pf/cuadromuestras.jpg){ width="600"}
+
 
 # Molde
 
