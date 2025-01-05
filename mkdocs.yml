@@ -27,8 +27,8 @@ nav:
     - MD03: diseno/md03.md
   - Modulos Innovación :
     - MI01: innovacion/mi01.md
-    - MI02 - IAD: innovacion/mi02-iad.md
-    - MI02 - DSyEC: innovacion/mi02-dsec.md
+    - MI02: innovacion/mi02.md
+    - MI03: innovacion/mi03.md
   - Proyecto Integrador:
     - proceso : proyecto/proceso.md
     - desarrollo : proyecto/desarrollo.md
