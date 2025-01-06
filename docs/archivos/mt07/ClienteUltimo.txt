@@ -1,0 +1,208 @@
+#include <WiFi.h>
+#include <HTTPClient.h>
+#include <WebServer.h>
+#include <Preferences.h>
+
+// Configuración inicial
+const char* ssid = "RedRecolector";
+const char* password = "MateUruguayo";
+
+String servidorURL = "http://192.168.4.2/update";
+const String clienteID = "1";  // ID del cliente hardcodeado
+String ubicacion = "Piso 3, Oficina 2";
+String ipCliente = "192.168.4.100"; // IP inicial del cliente
+float medidaActual = 0.0; // Medida actual del sensor
+int frecuenciaEnvio = 5; // Frecuencia en minutos
+
+// Pines del sensor ultrasónico
+const int trigPin = 5;
+const int echoPin = 18;
+long duracionPulso;
+float distancia;
+
+// Persistencia de configuración
+Preferences preferences;
+
+// Servidor web para recibir keep-alive
+WebServer webServer(80);
+
+// Variables para detección de cambios
+String prevUbicacion = "";
+String prevIpCliente = "";
+String prevClienteID = "";
+float prevMedida = -1.0;
+
+void setup() {
+  Serial.begin(115200);
+
+  pinMode(trigPin, OUTPUT);
+  pinMode(echoPin, INPUT);
+
+  // Recuperar configuración guardada
+  preferences.begin("config", false);
+  servidorURL = preferences.getString("IPServidor", servidorURL);
+  ubicacion = preferences.getString("ubicacion", ubicacion);
+  ipCliente = preferences.getString("IPCliente", ipCliente);
+
+  // Inicializar variables de comparación
+  prevUbicacion = ubicacion;
+  prevIpCliente = ipCliente;
+  prevClienteID = clienteID;
+
+  conectarWiFi();
+
+  // Configurar servidor web local
+  webServer.on("/keepalive", handleKeepAlive);
+  webServer.begin();
+  Serial.println("Servidor web local iniciado.");
+
+  Serial.println("Escriba CONSULTAR para ver la configuración actual.");
+  mostrarMenuComandos();
+}
+
+void loop() {
+  webServer.handleClient(); // Manejar solicitudes al servidor local
+  manejarComandosSerial();
+
+  // Leer nueva medida del sensor
+  float nuevaMedida = getDistanciaPromedio(10);
+
+  // Verificar cambios en los datos
+  if (fabs(nuevaMedida - prevMedida) >= 0.5) { // Solo enviar si el cambio es significativo (>= 0.5 cm)
+    prevMedida = nuevaMedida;
+    medidaActual = nuevaMedida;
+    enviarDatosServidor();
+  }
+}
+
+// Configurar WiFi con la IP del cliente
+void conectarWiFi() {
+  WiFi.disconnect(true); // Desconectar cualquier configuración anterior
+  IPAddress ip;
+  ip.fromString(ipCliente);
+
+  WiFi.config(ip, IPAddress(192, 168, 4, 1), IPAddress(255, 255, 255, 0));
+  Serial.print("Conectando a ");
+  Serial.println(ssid);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.print(".");
+  }
+  Serial.println("\nConexión establecida.");
+  Serial.print("Dirección IP del cliente: ");
+  Serial.println(WiFi.localIP());
+
+  // Forzar envío inicial
+  enviarDatosServidor();
+}
+
+// Manejar solicitudes de keep-alive
+void handleKeepAlive() {
+  webServer.send(200, "text/plain", "Keep-alive OK");
+  Serial.println("Keep-alive recibido y respondido correctamente.");
+}
+
+// Obtener distancia promedio del sensor
+float getDistanciaPromedio(int muestras) {
+  float distanciaTotal = 0;
+  for (int i = 0; i < muestras; i++) {
+    digitalWrite(trigPin, LOW);
+    delayMicroseconds(2);
+    digitalWrite(trigPin, HIGH);
+    delayMicroseconds(10);
+    digitalWrite(trigPin, LOW);
+
+    duracionPulso = pulseIn(echoPin, HIGH);
+    distancia = duracionPulso * 0.034 / 2;
+    distanciaTotal += distancia;
+    delay(50);
+  }
+  return distanciaTotal / muestras;
+}
+
+// Enviar datos al servidor
+bool enviarDatosServidor() {
+  HTTPClient http;
+  http.begin(servidorURL);
+  http.setTimeout(5000); // Establecer timeout a 5 segundos
+  http.addHeader("Content-Type", "application/x-www-form-urlencoded");
+
+  String clienteIP = WiFi.localIP().toString();
+
+  // Crear los datos del POST
+  String postData = "id=" + clienteID +
+                    "&ubicacion=" + ubicacion +
+                    "&medida=" + String(medidaActual) +
+                    "&clienteIP=" + clienteIP;
+
+  // Imprimir los datos enviados
+  Serial.println("Enviando datos al servidor:");
+  Serial.println(postData);
+
+  int httpResponseCode = http.POST(postData);
+  if (httpResponseCode > 0) {
+    String response = http.getString();
+    Serial.print("Respuesta del servidor: ");
+    Serial.println(response);
+    http.end();
+    return true;
+  } else {
+    Serial.print("Error en la solicitud HTTP: ");
+    Serial.println(httpResponseCode);
+    http.end();
+    return false;
+  }
+}
+
+void manejarComandosSerial() {
+  if (Serial.available()) {
+    String comando = Serial.readStringUntil('\n');
+    comando.trim();
+
+    if (comando.equalsIgnoreCase("CONSULTAR")) {
+      mostrarConfiguracion();
+    } else if (comando.startsWith("UBICACION=")) {
+      ubicacion = comando.substring(10);
+      preferences.putString("ubicacion", ubicacion);
+      Serial.println("Ubicación actualizada a: " + ubicacion);
+      if (ubicacion != prevUbicacion) {
+        prevUbicacion = ubicacion;
+        enviarDatosServidor();
+      }
+    } else if (comando.startsWith("IP=")) {
+      ipCliente = comando.substring(3);
+      preferences.putString("IPCliente", ipCliente);
+      Serial.println("IP del cliente actualizada a: " + ipCliente);
+      if (ipCliente != prevIpCliente) {
+        prevIpCliente = ipCliente;
+        conectarWiFi();
+        enviarDatosServidor();
+      }
+    } else {
+      Serial.println("Comando no reconocido. Intente nuevamente.");
+      mostrarMenuComandos();
+    }
+  }
+}
+
+
+// Mostrar configuración actual
+void mostrarConfiguracion() {
+  Serial.println("=== CONFIGURACIÓN ACTUAL ===");
+  Serial.println("ID: " + clienteID);
+  Serial.println("IP del cliente: " + ipCliente);
+  Serial.println("IP del servidor: " + servidorURL);
+  Serial.println("Ubicación: " + ubicacion);
+  Serial.println("Última medida: " + String(medidaActual) + " cm");
+  Serial.println("============================");
+}
+
+// Mostrar menú de comandos
+void mostrarMenuComandos() {
+  Serial.println("=== COMANDOS DISPONIBLES ===");
+  Serial.println("CONSULTAR -> Muestra la configuración actual.");
+  Serial.println("UBICACION=<nueva_ubicacion> -> Cambia la ubicación.");
+  Serial.println("IP=<nueva_ip> -> Cambia la IP del cliente.");
+  Serial.println("============================");
+}
